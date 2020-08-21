@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("assets/fonts/quicksand-variablefont_wght-webfont.woff2") format("woff2"),
+           url("assets/fonts/quicksand-variablefont_wght-webfont.woff") format("woff");
+   }
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Quicksand;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+}
+/* page 1 */
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+}
+.sideMenu{
+    display: flex;
+    width: 80px;
+    height: 100%;
+}
+.hamburger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 80px;
+    background: #86758D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hamburger i {
+    color: white;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    background: white;
+}
+.navigate li i{
+    color: gray;
+}
+.navigate li:not(:last-child){
+    margin-bottom: 45px;
+}
+.active a i{
+    color: #86758D;
+}
+.photo img{
+    width: 810px;
+    height: 100%;
+
+}
+.photo{
+    width: 810px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+.name{
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    background-color: rgba(134, 117, 141, 0.5);
+    color: white;
+    padding: 10px 60px;
+}
+.name h2{
+    font-size: 70px;
+    font-weight: lighter;
+}
+.content{
+    margin-left: 110px;
+    width: 100%;
+}
+.info{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: #86758D;
+    font-weight: bolder;
+    font-size: 70px;
+}
+h5{
+    color: #86758D;
+    font-weight: 400;
+    font-size: 30px;
+}
+p{
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+}
+.aboutMe{
+    margin: 15px 0 35px 0;
+}
+.border{
+    background-color: #86758D;
+    padding: 7px 0 7px 16px;
+}
+.age{
+    margin-bottom: 37px;
+}
+.practice{
+    margin: 30px 0;
+}
+.cinema{
+    margin-bottom: 20px;
+}
+.fashion{
+    margin: 30px 0 20px;
+}
+.twitter{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* page 2 */
+
+.socialPage{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+}
+.socialBack{
+    background: url(/assets/img/fdsfdsfsdfdsfsd.jpg) no-repeat;
+    background-size: cover;
+}
+.social{
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.network{
+    bottom: 55px;
+    left: 80px;
+    position: absolute;
+    background-color: rgba(134, 117, 141, 0.8);
+    padding: 2px 20px;
+    font-size: 50px;
+    color: white;
+}
+.popularity{
+    margin: 190px 0 0 250px;
+}
+.instagram{
+    position: absolute;
+    bottom: 50px;
+    right: 200px;
+}
