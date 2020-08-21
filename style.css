@@ -10,6 +10,8 @@
     list-style: none;
     text-decoration: none;
     justify-content: center;
+    -webkit-user-drag: none;
+    user-select: none;
 }
 /* page 1 */
 .main{
@@ -81,7 +83,6 @@
 }
 .info{
     display: flex;
-    height: 100%;
     width: 100%;
 }
 h1{
@@ -93,6 +94,7 @@ h5{
     color: #86758D;
     font-weight: 400;
     font-size: 30px;
+    
 }
 p{
     color: white;
@@ -121,6 +123,7 @@ p{
 .twitter{
     text-align: center;
     margin-top: 30px;
+
 }
 
 /* page 2 */
