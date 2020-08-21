@@ -57,11 +57,9 @@
 .photo img{
     width: 810px;
     height: 100%;
-
 }
 .photo{
     width: 810px;
-    height: 100%;
     position: relative;
     text-align: center;
 }
@@ -134,7 +132,7 @@ p{
     justify-content: flex-start;
 }
 .socialBack{
-    background: url(/assets/img/fdsfdsfsdfdsfsd.jpg) no-repeat;
+    background: url(./assets/img/fdsfdsfsdfdsfsd.jpg) no-repeat;
     background-size: cover;
 }
 .social{
